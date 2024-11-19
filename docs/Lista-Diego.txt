@@ -1,0 +1,19 @@
+Projeto do Diego
+
+Pontos positivos:
+Boa semântica no HTML;
+Classes em inglês;
+Fotos em formato webp;
+Boa organização e distribuição do nav do header;
+Versão desktop fiel ao original(faltando apenas algumas bordas);
+Conteúdo alinhado;
+Footer organalizado e distribuido;
+
+Pontos a melhorar:
+Responsividade do site está com problemas por conta de alguns itens;
+Falta overflow-x no .secondNav, para melhor usabilidade no mobile;
+.containerTop com cor de fundo diferente de seu conteúdo principal;
+#mobileMainImage está esticando em certos momentos;
+Scroll-x aparece em vários momentos;
+
+

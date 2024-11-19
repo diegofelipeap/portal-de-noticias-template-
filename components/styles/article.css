@@ -1,0 +1,137 @@
+article {
+    margin: 0 auto;
+}
+
+.mobileCenterIcons {
+    display: none;
+}
+
+.subtitle01 {
+    color: #7C7C7C;
+    font-size: 20px;
+    margin-bottom: 55px;
+    width: 845px;
+    height: 28px;
+}
+
+.otherParagraphs {
+    color: #2F2F2F;
+    font-size: 16px;
+    width: 900px;
+    height: 83px;
+}
+
+.containerArticle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.containerArticle>blockquote {
+    width: 357px;
+    height: 213px;
+    margin-left: 50px;
+}
+
+.containerArticle>blockquote img {
+    width: 50px;
+    height: 40px;
+    margin-left: 150px;
+}
+
+.containerArticle p {
+    font-size: 24px;
+    color: #2F2F2F;
+    margin: 22px 0 8px;
+    text-align: center;
+    font: bold 24px 'Poppins';
+}
+
+.containerArticle cite {
+    font-size: 14px;
+    margin-left: 95px;
+    font-style: normal;
+}
+
+/* Equal Layout */
+.equalLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 900px;
+}
+
+.equalLayout p:first-child {
+    margin-top: 40px;
+}
+
+.equalLayout p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.equalLayout p:nth-child(11) {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.equalLayout p:nth-child(14) {
+    margin-top: -20px;
+}
+
+.iframes {
+    margin-bottom: 40px;
+    margin-left: 170px;
+}
+
+.iframes iframe {
+    border-radius: 6px;
+    width: 560px;
+    height: 315px;
+}
+
+#secondIframe {
+    height: 360px;
+    border-radius: 12px;
+}
+
+h2 {
+    font-size: 36px;
+    font: normal normal bold 36px 'Poppins';
+}
+
+#repertoryTitle {
+    font-size: 24px;
+    text-align: center;
+    font: normal normal bold 24px 'Poppins';
+}
+
+mark {
+    font-size: 24px;
+    width: 688px;
+    color: #10cf3d;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    background: none;
+    font: normal normal bold 24px 'Poppins';
+}
+
+.finalFigure {
+    display: grid;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.finalFigure img {
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.finalFigure>div,
+#finalFigCaption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}

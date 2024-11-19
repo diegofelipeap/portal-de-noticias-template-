@@ -1,0 +1,18 @@
+Diego - Pontos positivos: 
+
+- Projeto muito bem organizado, incluindo o README.md, peguei até uma base lá;
+- Footer bem estruturado;
+Classes em inglês;
+- Boa semântica no HTML.
+
+Pontos a melhorar:
+
+- O projeto está com borda ao aumentar a dimensão da tela. Eu trabalho com um monitor que é maior que meu computador, e nele por exemplo a página não se adapta corretamente;
+- MainImage também não está se adaptando as dimensões da página;
+- Símbolo do WhatsApp está maior que os demais;
+- O Facebook e o Instagram no footer estão cortados;
+- Espaçamento entre os parágrafos está muito grande, em relação ao projeto base que nos foi passado;
+- Embaixo do texto “A essência…” a citação do Vocalista está escrita em itálico, diferente do projeto base passado. Acho que isso poderia ser corrigido no CSS aplicando um → font-style: normal;
+- Diminuir a font do “Leia Também” (quando mobile).
+
+

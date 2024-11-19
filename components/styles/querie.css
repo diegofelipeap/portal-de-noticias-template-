@@ -1,0 +1,416 @@
+@media screen and (max-width: 768px) {
+
+    html {
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    body {
+        background: #F8F9FC 0% 0% no-repeat padding-box;
+        margin: 0 auto;
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    main,
+    article,
+    footer {
+        width: 100%;
+    }
+
+    article {
+        height: 5400px;
+    }
+
+    .subtitle01 {
+        margin-bottom: 30px;
+    }
+
+    .mobileCenterIcons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 20px;
+        margin-left: -30px;
+    }
+
+    .mobileCenterIcons>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #7917d5;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .iconsBar {
+        display: none;
+    }
+
+    .firstNav>.draftLinks,
+    .inputContainer,
+    #containerMediaIcons {
+        display: none;
+    }
+
+    .firstNavButton {
+        display: flex;
+        position: absolute;
+        top: 40px;
+        left: 20px;
+        border: none;
+        background: transparent;
+    }
+
+    .weatherInfo p {
+        font-size: 10px;
+        text-align: left;
+        width: 79px;
+        height: 15px;
+    }
+
+    .secondNav {
+        width: 100%;
+        margin-left: -10px;
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .secondNav::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .secondNav a {
+        font-size: 10px;
+        height: 15px;
+        padding: 0 10px;
+        margin-top: 11px;
+        margin-bottom: 1px;
+    }
+
+
+    .weatherItem {
+        margin-left: 44.5px;
+    }
+
+    #mainImage {
+        display: none;
+    }
+
+    .mobileMainImage {
+        display: flex;
+        width: 450px;
+        height: auto;
+    }
+
+
+    h1 {
+        font-size: 22px;
+        width: 320px;
+        height: 109px;
+    }
+
+    .subtitle01 {
+        width: 320px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .containerTop {
+        width: 320px;
+        height: 100px;
+        padding: 0;
+        position: absolute;
+        top: 545px;
+    }
+
+    /*ARTICLE*/
+
+    article {
+        margin: 0 auto;
+        width: 320px;
+        position: relative;
+        top: 190px;
+    }
+
+    .otherParagraphs {
+        width: 320px;
+        height: 155px;
+        font-size: 16px;
+    }
+
+    .interactionContainer {
+        margin-bottom: -10px;
+        height: 40px;
+    }
+
+    .containerArticle {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .containerArticle>blockquote {
+        width: 286px;
+        height: 184px;
+        margin-left: -20px;
+    }
+
+    .containerArticle>blockquote img {
+        width: 50px;
+        height: 40px;
+        margin-left: 115px;
+    }
+
+    .containerArticle p {
+        font-size: 20px;
+        color: #2F2F2F;
+        margin: 0;
+        text-align: center;
+    }
+
+    .containerArticle cite {
+        font-size: 14px;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    .blockQuoteImg {
+        margin-top: 30px;
+        margin-left: 45px;
+        width: 320px;
+        height: 226px;
+    }
+
+    .containerArticle>figure>figcaption {
+        margin-left: 150px;
+    }
+
+    .equalLayout {
+        width: 120px;
+        height: 3850px;
+        gap: 45px;
+    }
+
+    .equalLayout p:nth-child(11) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .equalLayout p:nth-child(14) {
+        margin-top: 20px;
+    }
+
+    .iframes {
+        margin: 0;
+        width: 300px;
+    }
+
+    .iframes iframe,
+    #secondIframe {
+        width: 300px;
+        height: 180px;
+    }
+
+    #repertoryTitle {
+        width: 166px;
+        height: 23px;
+        font-size: 16px;
+        margin-top: 40px;
+        margin-left: 65px;
+    }
+
+    h2 {
+        width: 129px;
+        height: 28px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    mark {
+        font-size: 20px;
+        width: 320px;
+        height: 148px;
+        color: #7917d5;
+        font-weight: bold;
+        margin-left: 0;
+        margin-top: -10px;
+    }
+
+    #pMarginMobile {
+        margin-top: 70px;
+        margin-bottom: 1px;
+    }
+
+    .finalFigure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        width: 320px;
+        height: 180px;
+    }
+
+
+
+    .finalFigure>div,
+    #finalFigCaption {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    section:last-of-type {
+        width: 390px;
+    }
+
+    .shoutIcon {
+        font-size: 22px;
+        font-family: 'Poppins-Bold';
+        font-size: bold;
+        margin-left: 35px;
+    }
+
+    .shoutIcon>img {
+        width: 14px;
+        height: 30px;
+    }
+
+    .containerWrap {
+        display: flex;
+        flex-direction: column;
+        margin-left: 35px;
+        height: 700px;
+    }
+
+    .newNotices {
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        width: 320px;
+        height: 200px;
+        font-size: 15px;
+    }
+
+    .newNotices button {
+        background: #7917d5;
+        color: #FFFFFF;
+        width: 63px;
+        height: 23px;
+        margin-bottom: 37px;
+    }
+
+    .newNotices>h3 {
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 15px;
+        height: 61px;
+    }
+
+    footer {
+        margin-top: 370px;
+        width: 450px;
+        height: 1116px;
+    }
+
+    #footerLogo {
+        width: 131px;
+        height: 45px;
+        margin: 25px 107px 25px 20px;
+    }
+
+    .footerImg {
+        display: flex;
+        margin-left: 30px;
+        gap: 12px;
+    }
+
+    .navLinks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .navLinks li {
+        margin-left: 42px;
+    }
+
+    #politeTitle {
+        margin-top: 0;
+    }
+
+    .secCaption {
+        margin: 40px 10px 40px 10px;
+    }
+
+    .secCaption p {
+        font-size: 10px;
+        text-align: center;
+        margin-left: 36px;
+        width: 320px;
+        height: 43px;
+    }
+
+    .secCaption img {
+        margin-left: -30px;
+        position: relative;
+        bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    main,
+    header,
+    html,
+    footer {
+        width: 400px;
+    }
+    .secCaption {
+        margin: 40px 20px 40px 6px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    main,
+    header,
+    html,
+    footer {
+        width: 360px;
+    }
+
+    h1,
+    .containerTop,
+    .subtitle01 {
+        width: 300px;
+    }
+
+    main {
+        margin-left: -20px;
+    }
+
+    .mobileMainImage {
+        margin-left: -30px;
+    }
+
+    .equalLayout {
+        margin-left: -10px;
+    }
+
+    .shoutIcon,
+    .containerWrap {
+        margin-left: 20px;
+    }
+
+    #topFooter,
+    .footerImg {
+        margin-left: -20px;
+    }
+}

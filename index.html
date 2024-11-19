@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./components/styles/header.css">
+    <link rel="stylesheet" href="./components/styles/aside.css">
+    <link rel="stylesheet" href="./components/styles/main.css">
+    <link rel="stylesheet" href="./components/styles/article.css">
+    <link rel="stylesheet" href="./components/styles/footer.css">
+    <link rel="stylesheet" href="./components/styles/querie.css">
+    <link rel="shortcut icon" href="assets/desktop/alternative-logo.png" type="image/x-icon">
+    <title>Portais de Notícias</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html {
+            background: #F8F9FC;
+            width: 100%;
+            height: auto;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav class="firstNav">
+            <button class="firstNavButton"> <img src="./assets/mobile/menu.svg" alt="ícone do botão de menu"></button>
+            <a href="#"><img src="assets/desktop/alternative-logo.png" alt="Logo do site"
+                    style="width: 50px; display: flex;"></a>
+            <div class="weatherItem">
+                <img src="./assets/desktop/sun.svg" alt="ícone de sol">
+                <div class="weatherInfo">
+                    <p>26°C</p>
+                    <p>Maceió, Alagoas</p>
+                </div>
+            </div>
+            <div class="draftLinks">
+                <a href="#">Anuncie!</a>
+                <a href="#">Classificados</a>
+            </div>
+            <div class="inputContainer">
+                <input type="text" placeholder="o que está buscando?" readonly>
+                <img src="./assets/desktop/search.svg" alt="ícone de lupa" id="imgInput">
+            </div>
+
+            <div id="containerMediaIcons">
+                <a href="#facebook" class="firstNavIcons">
+                    <img src="./assets/desktop/facebook.svg" alt="ícone do Facecbook">
+                </a>
+                <a href="#insta" class="firstNavIcons">
+                    <img src="./assets/desktop/instagram.svg" alt="ícone do Instagram">
+                </a>
+            </div>
+        </nav>
+
+        <nav class="secondNav">
+            <a href="#">Capa do Site</a>
+            <a href="#">Editoriais</a>
+            <a href="#">Política</a>
+            <a href="#">Esporte</a>
+            <a href="#">Cidades</a>
+            <a href="#">Serviços</a>
+            <a href="#">Enquetes</a>
+            <a href="#">Promoções</a>
+            <a href="#">Eventos</a>
+            <a href="#">Vídeos</a>
+            <a href="#">REPORTAGENS!</a>
+        </nav>
+        <img src="assets/desktop/firstasset.jpg" alt="Imagem do cantor" id="mainImage">
+        <img src="assets/desktop/firstasset.jpg" alt="Imagem do cantor versão mobile" class="mobileMainImage"
+            width="340">
+    </header>
+
+    <main>
+        <aside class="iconsBar">
+            <section>
+                <div>
+                    <img src="./assets/desktop/ouvir.svg" alt="ícone de tocar música">
+                    <p>OUÇA</p>
+                </div>
+                <div>
+                    <img src="./assets/desktop/print.svg" alt="ícone de impressão">
+                    <p>IMPRIMIR</p>
+                </div>
+            </section>
+
+            <div class="socialNetwork">
+                <img src="./assets/desktop/whatsapp.svg" alt="ícone do Whatsapp" id="whatsappIcon">
+                <img src="./assets/desktop/facebook-1.svg" alt="ícone do Facebook">
+                <img src="./assets/desktop/twitter.svg" alt="ícone do Twitter">
+                <img src="./assets/desktop/email.svg" alt="ícone de E-mail">
+            </div>
+        </aside>
+
+        <div class="containerTop">
+            <a href="#breadcrumb">BREADCRUMB</a> <span>/</span> <a href="#home">HOME</a>
+            <p>HOME • 19/11/2024 08H00 • ATUALIZADO HÁ UM DIA</p>
+        </div>
+
+
+        <article>
+
+            <h1>Título Principal do seu Portal de NOTÍCIAS: Aqui.</h1>
+            <p class="subtitle01">Subtítulo da sua notícia ficará aqui!</p>
+
+            <section class="mobileCenterIcons">
+                <div>
+                    <img src="./assets/desktop/ouvir.svg" alt="ícone de tocar música">
+                    <p>OUVIR</p>
+                </div>
+                <div>
+                    <img src="./assets/desktop/print.svg" alt="ícone de impressão">
+                    <p>IMPRIMIR</p>
+                </div>
+                <div>
+                    <img src="./assets/mobile/compartilhar.svg" alt="ícone de compartilhar">
+                    <p>Compartilhar</p>
+                </div>
+            </section>
+
+            <p class="otherParagraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi suscipit
+                ipsum voluptatibus accusamus ea provident eos delectus quo! Reprehenderit dolorum at unde ad laborum
+                rem. Ducimus asperiores distinctio eaque!</p>
+
+            <div class="containerArticle">
+                <blockquote>
+                    <img src="./assets/desktop/aspas.svg" alt="ícone de aspas">
+                    <p>
+                        Simulação de citação principal aqui.
+                    </p>
+                    <cite>Aqui fica sua citação.</cite>
+                </blockquote>
+                <figure>
+                    <img src="assets/desktop/secondasset2.jpg" alt="Foto de um homem" class="blockQuoteImg"
+                        style="width: 320px;">
+                    <figcaption>Foto: Demonstração.</figcaption>
+                </figure>
+            </div>
+
+            <div class="equalLayout">
+                <p class="otherParagraphs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore nulla quos
+                    quas vitae labore saepe impedit esse quam mollitia, doloribus, vero excepturi, iste debitis aut? Ab
+                    natus nulla veniam tempore.</p>
+                <p class="otherParagraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda
+                    maiores est repellat? Quidem, accusamus non assumenda reiciendis magni dolor adipisci velit autem
+                    dolore est incidunt similique rerum neque architecto!</p>
+
+                <section class="iframes">
+                    <iframe width="1695" height="705" src="https://www.youtube.com/embed/D_m-G5vt41s"
+                        title="Squirtle Sax" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </section>
+
+                <p class="otherParagraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ducimus
+                    enim magnam molestias deserunt ea, doloribus dolorem saepe tenetur sint modi aliquam excepturi
+                    veniam, est ut beatae laborum ratione? Minima.</p>
+                <p class="otherParagraphs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis nostrum
+                    nemo illo qui repudiandae labore magni accusantium? Suscipit vitae accusantium, possimus sunt
+                    deleniti aut, omnis exercitationem doloremque ipsam, minus nesciunt.
+                </p>
+
+                <h3 id="repertoryTitle">CTA de exemplo:</h3>
+
+                <section class="iframes">
+                    <iframe id="secondIframe"
+                        src="https://open.spotify.com/embed/album/4XY2OtEio7OBlyiWxUgHCg?utm_source=generator"
+                        allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+                        frameborder="0"></iframe>
+                </section>
+
+                <p class="otherParagraphs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem odit quo
+                    eum non corporis earum nobis ipsa molestiae obcaecati exercitationem deleniti sunt blanditiis
+                    molestias ullam repellendus sed, provident rem enim!</p>
+                <p class="otherParagraphs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas natus quos
+                    maiores placeat quod corrupti, beatae repellendus tempore et explicabo, facere velit error
+                    perspiciatis consectetur fugit. Error unde enim ipsum!</p>
+
+                <div class="interactionContainer">
+                    <a>
+                        <img src="./assets/desktop/play.svg" alt="ícone de play">
+                    </a>
+                    <div>
+                        <h5>ENTREVISTA (Simulação)</h5>
+                        <p>1:23:45</p>
+                    </div>
+                </div>
+                <p class="otherParagraphs">“Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque tempora
+                    optio molestiae nihil". Officiis nihil, id "accusantium magnam excepturi quidem commodi illum
+                    blanditiis placeat" voluptates similique, beatae voluptas, expedita dicta.
+                </p>
+                <p class="otherParagraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore et
+                    asperiores voluptatibus. Optio, fugit perspiciatis repellat aperiam nisi, veritatis voluptates
+                    nesciunt ut vel veniam accusamus molestias eum eveniet obcaecati deleniti?
+                </p>
+                <div class="interactionContainer">
+                    <a>
+                        <img src="./assets/desktop/download.svg" alt="ícone de download" id="secondIconInteraction">
+                    </a>
+                    <div>
+                        <h5>CAPA DE ALBUM.PDF</h5>
+                        <p>10,53.mb</p>
+                    </div>
+                </div>
+
+                <p class="otherParagraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repellat.
+                    Reprehenderit, enim earum libero quis in tempora incidunt beatae ad. Veniam dicta labore ducimus ab
+                    possimus, aperiam facere adipisci accusantium?</p>
+
+                <h2>Segundo Título</h2>
+
+                <p class="otherParagraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat repudiandae
+                    atque, minus ipsa harum enim ad eaque beatae quidem, explicabo corrupti necessitatibus quam eum nam
+                    odit! Nulla sit autem ab?</p>
+                <p class="otherParagraphs">“lorem”, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                    dolores repellat corporis quaerat animi, molestias atque sapiente vero obcaecati quam repudiandae
+                    alias dicta reiciendis eaque cupiditate possimus dolorum aliquam similique.</p>
+
+                <mark>Citação Forte (exemplo):Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam eius
+                    praesentium
+                    quia?</mark>
+
+                <p class="otherParagraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod qui obcaecati
+                    animi adipisci, aspernatur inventore voluptas perspiciatis? Rem doloribus magnam recusandae
+                    aspernatur maiores animi odit adipisci quos, accusantium voluptatibus amet!</p>
+                <p class="otherParagraphs" id="pMarginMobile">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eligendi omnis obcaecati totam illum enim voluptate voluptatibus ut laboriosam vero! Impedit
+                    delectus quibusdam autem, a quam eos animi dignissimos? Inventore, voluptas!</p>
+                <figure class="finalFigure">
+                    <img src="assets/mobile/thirdasset.jpg" style="width: 320px; margin: 0 auto;"
+                        alt="Imagem de uma mulher coreana">
+                    <figcaption id="finalFigCaption">Foto: Demonstração.</figcaption>
+                    <div>
+                        <input type="radio" disabled>
+                        <input type="radio" disabled>
+                        <input type="radio" disabled>
+                        <input type="radio" disabled>
+                        <input type="radio" disabled>
+                    </div>
+                </figure>
+            </div>
+        </article>
+
+        <section>
+            <div class="shoutIcon">
+                <img src="./assets/desktop/id.svg" alt="ícone de exclamação">
+                <h4>CTA para artigos (leia também)</h4>
+            </div>
+
+            <div class="containerWrap">
+
+                <article class="newNotices">
+                    <button>música</button>
+                    <h3>Dj Lorem lança single com Ipsum e anuncia primeiro EP ‘Python’
+                    </h3>
+                    <p class="smallParagraph">há 2 min</p>
+                </article>
+                <article class="newNotices">
+                    <button>blog</button>
+                    <h3>Dj Lorem lança single com Ipsum e anuncia primeiro EP ‘Python’
+                    </h3>
+                    <p class="smallParagraph">há 3 min</p>
+                </article>
+                <article class="newNotices">
+                    <button>artigo</button>
+                    <h3>Dj Lorem lança single com Ipsum e anuncia primeiro EP ‘Python’
+                    </h3>
+                    <p class="smallParagraph">há 4 min</p>
+                </article>
+                <article class="newNotices">
+                    <button>site</button>
+                    <h3>Dj Lorem lança single com Ipsum e anuncia primeiro EP ‘Python’
+                    </h3>
+                    <p class="smallParagraph">há 5 min</p>
+                </article>
+                <article class="newNotices">
+                    <button>notícias</button>
+                    <h3>Dj Lorem lança single com Ipsum e anuncia primeiro EP ‘Python’
+                    </h3>
+                    <p class="smallParagraph">há 6 min</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="topFooter">
+            <img src="assets/desktop/alternative-logo.png" alt="Logo do site" class="footerLogo">
+            <div class="footerImg">
+                <a href="#facebook" class="firstNavIcons">
+                    <img src="./assets/desktop/facebook.svg" alt="ícone do Facecbook">
+                </a>
+                <a href="#insta" class="firstNavIcons">
+                    <img src="./assets/desktop/instagram.svg" alt="ícone do Instagram">
+                </a>
+            </div>
+        </section>
+
+        <nav class="navLinks">
+            <li>
+                <p>NOTÍCIAS</p>
+                <a href="#2">Editoriais</a>
+                <a href="#2">Política</a>
+                <a href="#2">Esporte</a>
+                <a href="#2">Enquetes</a>
+                <a href="#2">Cidades</a>
+                <a href="#2">Serviços</a>
+                <a href="#2">Promoções</a>
+                <a href="#2">Eventos</a>
+                <a href="#2">Vídeos</a>
+                <a href="#2">Reporter Massa</a>
+            </li>
+            <li>
+                <p>SERVIÇOS</p>
+                <a href="#2">Cursos</a>
+                <a href="#2">Empregos</a>
+                <a href="#2">Esporte</a>
+                <a href="#2">Como Fazer</a>
+                <a href="#2">Concursos</a>
+                <a href="#2">Dicas</a>
+            </li>
+            <li>
+                <p>EMPREGOS</p>
+                <a href="#2">Capacitação</a>
+                <a href="#2">Concursos</a>
+                <a href="#2">Servidor Público</a>
+                <div>
+                    <p id="polite-title">POLÍTICA</p>
+                    <a href="#2">Capa de Política</a> <br>
+                    <a href="#2">Eleições 2022</a>
+                </div>
+            </li>
+            <li>
+                <p>ESPORTE</p>
+                <a href="#2">E. C. Bahia</a>
+                <a href="#2">E. C. Vitória</a>
+                <a href="#2">Esportes Náuticos</a>
+                <a href="#2">Futebol Interior do Estado</a>
+                <a href="#2">Futebol Mundial</a>
+            </li>
+            <li>
+                <p>CIDADES</p>
+                <a href="#2">Capa de Cidades</a>
+                <a href="#2">Salvador</a>
+                <a href="#2">Feira de Santana</a>
+                <a href="#2">Vitória da Conquista</a>
+                <a href="#2">Juazeiro</a>
+                <a href="#2">Lauro de Freitas</a>
+                <a href="#2">Itabuna</a>
+            </li>
+            <li>
+                <p>LINKS</p>
+                <a href="#2">Fale com Massa</a>
+                <a href="#2">Política de Privacidade</a>
+                <a href="#2">Termos de Uso</a>
+                <a href="#2">Anuncie no site</a>
+                <a href="#2">Classificados</a>
+                <a href="#2">Trabalhe Conosco</a>
+                <a href="#2">Ajuda</a>
+            </li>
+        </nav>
+
+        <section class="secCaption">
+            <p>© 2024 Todos os direitos reservados <b>[SUA_EMPRESA].</b> Este material não pode
+                ser publicado, transmitido
+                por
+                broadcast, reescrito ou redistribuição sem prévia autorização.</p>
+            <img src="assets/desktop/alternative-logo.png" alt="Logo da empresa Webficar">
+        </section>
+    </footer>
+</body>
+
+</html>
